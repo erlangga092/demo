@@ -68,13 +68,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	@media screen and (max-width: 576px) {
+	@media screen and (max-width: 992px) {
 		padding: 1rem .5rem;
 	}
 
 	&__wrap {
 		width: 80%;
-		@media screen and (max-width: 576px) {
+		@media screen and (max-width: 992px) {
 			width: 95%;
 		}
 
@@ -84,7 +84,7 @@
 			grid-gap: 1rem;
 			justify-content: center;
 			grid-template-columns: 1fr 1fr;
-			@media screen and (max-width: 576px) {
+			@media screen and (max-width: 768px) {
 				grid-template-columns: 1fr;
 			}
 

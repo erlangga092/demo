@@ -53,7 +53,7 @@
 <style lang="postcss">
 .problem {
 	@apply w-full py-16;
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 992px) {
 		padding: 2.5rem 0;
 	}
 
@@ -64,7 +64,7 @@
 		grid-gap: 1rem;
 		justify-content: center;
 		grid-template-columns: 1fr 1fr;
-		@media screen and (max-width: 768px) {
+		@media screen and (max-width: 992px) {
 			grid-template-columns: 1fr;
 		}
 

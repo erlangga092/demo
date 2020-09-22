@@ -32,13 +32,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	@media screen and (max-width: 576px) {
+	@media screen and (max-width: 992px) {
 		padding: 1rem .5rem;
 	}
 
 	&__wrap {
 		width: 70%;
-		@media screen and (max-width: 576px) {
+		@media screen and (max-width: 992px) {
 			width: 95%;
 		}
 

@@ -88,13 +88,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 992px) {
 		padding: 2.5rem .5rem;
 	}
 
 	&__wrap {
 		width: 70%;
-		@media screen and (max-width: 768px) {
+		@media screen and (max-width: 992px) {
 			width: 90%;
 		}
 		@media screen and (max-width: 576px) {

@@ -17,19 +17,19 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	@media screen and (max-width: 576px) {
+	@media screen and (max-width: 992px) {
 		padding: 2rem 1rem;
 	}
 
 	&__wrap {
 		@apply mx-auto my-auto;
 		width: 80%;
-		@media screen and (max-width: 576px) {
+		@media screen and (max-width: 992px) {
 			width: 95%;
 		}
 
 		&__desc {
-			@media screen and (max-width: 576px) {
+			@media screen and (max-width: 768px) {
 				font-size: 1rem;
 				margin-top: 1rem;
 			}
